@@ -1,0 +1,249 @@
+
+.socail {
+	width: 66.10169%;
+	float: left;
+	margin-right: 1.69492%;
+	display: inline;
+}
+.contact {
+	margin-top: 1.5em;
+	text-align: right;
+	text-transform: uppercase;
+	float: right;
+	margin-right: 0px;
+}
+.blog {
+	color: #58b6a9;
+}
+.project {
+	color: #f7be7a;
+}
+
+p.main {   
+    
+}
+p.main {
+	color: #999;
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 140%;
+	margin: 0.5em 0.5em 1em 0.5em;
+}
+section {
+	*zoom: 1;
+	max-width: 59em;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-left: 0;
+  	padding-right: 0;
+}
+
+
+/* Navigation
+================================= */
+
+nav {
+	float: right;
+	margin-right: 0;
+	display: inline;
+	text-align: right;
+}
+
+
+/* Header
+================================= */
+
+header {
+	letter-spacing: 1px;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	text-transform: uppercase;
+
+	max-width: 59em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+header h1 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 1em;
+}
+header a, header a {
+	border-bottom: none;
+}
+.header-wrapper {
+	border-bottom: 2px solid #eee;
+}
+.page-title {
+	font-size: 1em;
+	float: left;
+	margin-right: 1.69492%;
+	display: inline;
+}
+
+
+/* Footer
+================================= */
+
+footer {
+	max-width: 59em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.footer-wrapper {
+	border-top: 2px solid #eeeeee;
+	margin-top: 2em;
+}
+
+
+/* Icons
+================================= */
+
+@font-face {
+	font-family: 'social-icons';
+	src:url('../fonts/social-icons.eot');
+	src:url('../fonts/social-icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/social-icons.woff') format('woff'),
+		url('../fonts/social-icons.ttf') format('truetype'),
+		url('../fonts/social-icons.svg#social-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'social-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+	content: "\e604";
+}
+.icon-lab:before {
+	content: "\e602";
+}
+.icon-megaphone:before {
+	content: "\e603";
+}
+.icon-paperplane:before {
+	content: "\e606";
+}
+.icon-gift:before {
+	content: "\e600";
+}
+.icon-shocked:before {
+	content: "\e601";
+}
+.icon-wink:before {
+	content: "\e605";
+}
+.icon-lab2:before {
+	content: "\e607";
+}
+.icon-hammer:before {
+	content: "\e608";
+}
+.icon-spell-check:before {
+	content: "\e609";
+}
+.icon-info:before {
+	content: "\e60a";
+}
+.icon-twitter:before {
+	content: "\e60b";
+}
+.icon-github:before {
+	content: "\e60c";
+}
+.icon-wordpress:before {
+	content: "\e60d";
+}
+.icon-linkedin:before {
+	content: "\e60e";
+}
+[data-icon]::before {
+	font-family: 'social-icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.socail .icon {
+	font-size: 2em;
+	padding: 0.8em;
+}
+.contact-icon {
+	margin-left: 12px;
+	font-size: 1.125em;
+}
+
+
+/* Hyperlinks
+================================= */
+
+a {
+	-webkit-transition-duration: 0.6s;
+  	-moz-transition-duration: 0.6s;
+	-o-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	color: #333333;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+
+p.main a:hover {
+  border-bottom: 2px solid #999999;
+  color: #555;
+}
+p.main a {
+	border-bottom: 2px solid #ddd;
+	font-weight: 600;
+}
+
+a.about {
+	/*color: #c95b92;*/
+	color: #ffcc00;
+}
+a.blog {
+	color: #58b6a9;
+}
+a.project {
+	color: #c95b92;
+	/*color: #f7be7a;*/
+}
+
+header a {
+	color: #c95b92;
+	padding: 1em;
+}
+header a:hover {
+  color: #333333;
+}
+
+.socail a {
+	color: #cccccc;
+}
+.socail a:hover {
+	color: #2ba6cb;
+}
