@@ -7,10 +7,11 @@
 }
 .contact {
 	margin-top: 1.5em;
-	text-align: right;
+	width: 32.20339%;
 	text-transform: uppercase;
 	float: right;
 	margin-right: 0px;
+	margin-left: -1em;
 }
 .blog {
 	color: #58b6a9;
@@ -18,11 +19,32 @@
 .project {
 	color: #f7be7a;
 }
-
-p.main {   
-    
+.info {
+	color: #c95b92;;
 }
-p.main {
+.tech-at-hull {
+	color: #FFCD03;
+}
+.ruby-rails {
+	color: #e74c3c;
+}
+.ruby-rails-app {
+	color: #2980b9;
+}
+.rasp-pi {
+	color: #AD2D5E;
+}
+.toy {
+	color: #d35400;
+}
+.wink {
+	color: #1abc9c;
+}
+.typo {
+	color: orange;
+}
+
+p.main, .main-about {
 	color: #999;
 	font-size: 3em;
 	font-weight: 300;
@@ -32,6 +54,15 @@ p.main {
 section {
 	*zoom: 1;
 	max-width: 59em;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-left: 0;
+  	padding-right: 0;
+}
+
+section, .main-about{
+	*zoom: 1;
+	max-width: 60em;
   	margin-left: auto;
   	margin-right: auto;
   	padding-left: 0;
@@ -70,7 +101,7 @@ header h1 {
 	font-weight: 500;
 	font-size: 1em;
 }
-header a, header a {
+header a, header a:hover {
 	border-bottom: none;
 }
 .header-wrapper {
@@ -212,11 +243,11 @@ a {
 	text-decoration: none;
 }
 
-p.main a:hover {
+p.main a:hover, p.main-about a:hover  {
   border-bottom: 2px solid #999999;
   color: #555;
 }
-p.main a {
+p.main a, p.main-about a {
 	border-bottom: 2px solid #ddd;
 	font-weight: 600;
 }
@@ -232,6 +263,16 @@ a.project {
 	color: #c95b92;
 	/*color: #f7be7a;*/
 }
+a.tech-at-hull {
+	color: #FFCD03;
+}
+a.ruby-rails-app {
+	color: #2980b9;
+}
+a.toy {
+	color: #d35400;
+}
+
 
 header a {
 	color: #c95b92;
@@ -246,4 +287,70 @@ header a:hover {
 }
 .socail a:hover {
 	color: #2ba6cb;
+}
+
+/* Media Queries
+================================= */
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.page-title {
+		width: 100%;
+		float: left;
+		margin-right: 1.69492%;
+		margin-bottom: 1em;
+		text-align: center;
+	}
+
+	.header-wrapper {
+		border-bottom: none;
+	}
+
+	header {
+		padding-bottom: 2em;
+		padding-top: 2em;
+	}
+	header h1 {
+		font-size: 1.4em;
+		font-weight: 700;
+	}
+
+	nav {
+		width: 100%;
+		float: left;
+		margin-right: 1.69492%;
+		text-align: center;
+	}
+	nav a {
+		-webkit-border-radius: 3px;
+   	 	-moz-border-radius: 3px;
+    	border-radius: 3px;
+    	border: 2px solid #eeeeee;
+    	display: block;
+    	margin: 0.5em 0;
+    	padding: 0.5em 1em;
+	}
+
+	p.main {
+		font-size: 1.8em;
+		margin: 0.5em 0.5em 1em 0.5em;
+		text-align: center;
+	}
+
+	footer {
+		padding: 2em 0 4em 0;
+	}
+	footer .socail, footer .contact {
+		width: 100%;
+		float: left;
+		margin-left: auto;
+		margin-right: 2.27273%;
+		text-align: center;
+	}
+	footer .contact {
+		margin-top: 2em;
+	}
+	footer .contact a {
+		margin-right: 0;
+	}
+
 }
