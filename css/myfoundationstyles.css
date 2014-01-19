@@ -330,7 +330,7 @@ header a:hover {
     	padding: 0.5em 1em;
 	}
 
-	p.main {
+	p.main, p.main-about {
 		font-size: 1.8em;
 		margin: 0.5em 0.5em 1em 0.5em;
 		text-align: center;
